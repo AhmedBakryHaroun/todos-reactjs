@@ -1,0 +1,18 @@
+{
+  "todos": [
+    {
+      "_id": 12345,
+      "task": "Meeting",
+      "completed": false,
+      "createdAt": 1680765987285,
+      "userId": 111111
+    },
+    {
+      "_id": 123456,
+      "task": "Go to Gym",
+      "completed": true,
+      "createdAt": 1680765987285,
+      "userId": 111111
+    }
+  ]
+}

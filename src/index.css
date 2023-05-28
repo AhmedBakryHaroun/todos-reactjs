@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap");
+:root {
+  --color-bg: #1f1ff38;
+  --color-bg-varient: #333333;
+  --color-primary: #4db5ff;
+  --color-primary-varient: #252525;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms eaSe;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  font-size: 86%;
+}
+body {
+  background-color: var(--color-bg-varient);
+  color: var(--color-white);
+  /* font-family: "Orbitron", sans-serif; */
+  line-height: 1.7;
+  object-fit: cover;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,11 @@
+.formx {
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+}
+.formx h4 {
+  letter-spacing: 1px;
+  font-weight: 900;
+}

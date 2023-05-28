@@ -1,0 +1,19 @@
+.navbar {
+  background-color: transparent;
+  font-family: "Orbitron", sans-serif;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  font-family: "Luckiest Guy", cursive;
+  opacity: 0.6;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #999;
+}
